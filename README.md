@@ -1,7 +1,5 @@
 # golf-satellite-image-processor
-***
 This is a golf hole recognition program that demarcates various lies (e.g. fairway, rough, trees, etc.) on a satellite image, uses those demarcations to convert satellite golf holes to a visually enhanced rendering, and supports distance calculations between the tee box or hole to any point on the map.
-***
 ## Problem Statement
 Currently, there are no affordable APIs for satellite golf course mapping (e.g. the industry-leader, Golfbert, charges $399/month). This is prohibitive to developing satellite-based data entry for golf apps. Without satellite maps, data entry takes the form of a spreadsheet, which is inconvenient and time-consuming. This adds unnecessary friction for users and prevents wider adoption.
 ***
