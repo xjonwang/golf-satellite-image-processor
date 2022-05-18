@@ -8,4 +8,6 @@ Currently, there are no affordable APIs for satellite golf course mapping (e.g. 
 * Boundaries should be correct to 4 yards (e.g. the learned boundary between fariway and rough can be 4 yards right of where it actually is). For reference, a typical fairway is 40 yards wide. 
 * Boundaries should look smooth, rounded, and realistic (i.e. no jagged protrusions). 
 * The final rendering should be standardized and aesthetically pleasing (e.g. making all fairways a lime green to mask dead/brown spots on fairways). They should look roughly like the examples shown here: https://golfbert.com/api.
+* The final rendering should be oriented upward (i.e. green should appear at the top of the screen, and tee boxes should appear at the bottom of the screen).
 * Distance calculations should be accurate to a yard (e.g. if you click on a point in the fairway, the distance calculated from the tee box can be long/short by 1 yard).
+* Tee box location data should be pre-loaded (e.g. if a user selects the blue tees, all distance measurements to points in the fairway should originate from the corresponding tee box).
